@@ -25,6 +25,11 @@ for page in range(1,88):
 
 star_wars_characters = sorted(star_wars_characters, key=itemgetter('name'))
 ```
+
+## Visual of The Graph
+![alt text](https://cdn.rawgit.com/ryanc20/star-wars-data/8414289b/star_wars_heights.svg "Star Wars Heights")
+__Note:__ the graphic does not show the characters' names, just know that Yoda is the small one. The .svg file does show names, but I did not want to use an x-axis label because, frankly, it looked bad.
+
 ## Motivation
 I love the Star Wars universe and thought it would be a fantastic starting point for practicing data visualization using python. I plan to get more exposure to extracting information and using the data to create meaningful visualizations and observations.
 
